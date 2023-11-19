@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Face Mask Detection</title>
+    
+<style>
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #FF8C00; /* Orange color */
+        }
+        .imgdesign{
+
+          border-radius: 10px;
+          border: 10px outset #FF8C00;;
+          
+        }
+
+
+
+
+</style>
+    
+  </head>
+
+
+
+
+
+  <body>
+
+  <div class="container">
+      <h1>Face Mask Detection System</h1>
+
+
+    
+    <img src="{% url 'video_feed' %}" class="imgdesign">
+
+    </div>
+    
+  </body>
+</html>
